@@ -1,3 +1,29 @@
+/* CSS HEX */
+:root {
+--castleton-green: #14543bff;
+--lavender-blush: #eee5e9ff;
+--gray: #7c7c7cff;
+--licorice: #110b11ff;
+--light-green: #81f495ff;
+}
+
+/* CSS HSL */
+/* --castleton-green: hsla(157, 62%, 20%, 1);
+--lavender-blush: hsla(333, 21%, 92%, 1);
+--gray: hsla(0, 0%, 49%, 1);
+--licorice: hsla(300, 21%, 5%, 1);
+--light-green: hsla(130, 84%, 73%, 1); */
+
+
+.inline-example {
+  background-color: lightblue;
+  display: inline;  
+}
+
+.hidden {
+  display: none;
+}
+
 .protest-revolution-regular {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
@@ -9,4 +35,15 @@
     font-weight: 400;
     font-style: normal;
   }
+
+ 
+.sixtyfour-one {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
   

@@ -2,15 +2,33 @@
     display: flex;
     border: 1px darkorchid dashed;
     padding: 5px;
+    /* height: 150px; */
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+}
+
+.container-reverse {
+    display: flex;
+    border: 1px rgb(29, 8, 39) dashed;
+    padding: 5px;
+    /* height: 150px; */
     justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10px;
 }
 
 .boxes {
     border: 1px solid;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    /* this size helps demonstrate flex-wrap
+    width: 200px;
+    height: 200px; */
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /* .left-container {
@@ -28,6 +46,7 @@
 
 #box1 {
     background-color: hsl(0, 70%, 70%);
+    /* margin-left: auto; */
 }
 
 #box2 {
@@ -36,16 +55,22 @@
 
 #box3 {
     background-color: hsl(72, 70%, 70%);
-    /* order: 7; */
+    /* flex-grow: 2; */
+    order: 1;
 }
 
 #box4 {
     background-color: hsl(108, 70%, 70%);
-    /* order: -1; */
+    /* flex-grow: 2; */
+    /* margin-left: auto; */
+    order: -1;
 }
 
 #box5 {
     background-color: hsl(144, 70%, 70%);
+    /* flex-grow: 3; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
 }
 
 #box6 {
@@ -54,6 +79,7 @@
 
 #box7 {
     background-color: hsl(216, 70%, 70%);
+    order: 3;
 }
 
 #box8 {
@@ -65,5 +91,6 @@
 }
 
 #box10 {
-    background-color: hsl(324, 70%, 70%)
+    background-color: hsl(324, 70%, 70%);
+    /* margin-left: auto; */
 }
